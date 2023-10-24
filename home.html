@@ -1,0 +1,70 @@
+<!--Home Page-->
+
+<!DOCTYPE html5>
+<html5 lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <title>home</title>
+
+
+    <link href="http://www.jqueryscript.net/css/jquerysctipttop.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="Slider/themes/default/default.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="Slider/themes/light/light.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="Slider/themes/dark/dark.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="Slider/themes/bar/bar.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="Slider/nivo-slider.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="Slider/demo/style.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <section id="header">
+        <div class="headingTop">
+            <div>
+                <h1 class="headingTop">Kassidy Sutherland</h1>
+            </div>
+        </div>
+    </section>
+
+    <section id="navBar">
+        <nav>
+            <ul class="topnav">
+                <li><a class="active" href="home.html"><img class="logo" src="Images/Logo.png" alt="Logo"></a></li>
+                <li><a href="showcase.html">Showcase</a></li>
+                <li><a href="about me.html">About Me</a></li>
+                <li><a href="contacts.html">Contacts</a></li>
+            </ul>
+        </nav>
+    </section>
+
+    <section class="homeSlider">
+        <div id="homeSlider">
+            <div class="slider-wrapper theme-default">
+                <div id="slider" class="nivoSlider">
+                    <img src="Images/froggy.png" data-thumb="Images/froggy.png" alt="froggy"/>
+                    <img src="Images/cans-snapshot.png" data-thumb="Images/cans-snapshot.png" alt="Cans"/>
+                    <img src="Images/girl wolf.png" data-thumb="Images/girl wolf.png" alt="Girl Wolf" data-transition="slideInLeft"/>
+                    <img src="Images/kassidy_GD40E_A02.png" data-thumb="Images/kassidy_GD40E_A02.png" alt="wrap"/>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="script">
+        <footer>
+            <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script> 
+            <script type="text/javascript" src="Slider/jquery.nivo.slider.js"></script> 
+            <script type="text/javascript">
+
+                $(window).load(function() {
+                    $('#slider').nivoSlider();
+                });
+
+            </script> 
+        </footer>
+    </section>
+</body>
+</html5>
